@@ -52,3 +52,9 @@ _Add screenshots or a demo link here to showcase your platform visually._
 ```bash
 git clone https://github.com/vibhor0599bagga/CryptoPlace.git
 cd CryptoPlace
+### **Step 2: Install Dependencies**
+```bash
+npm install
+### **Step 3: Run the Application**
+```bash
+
