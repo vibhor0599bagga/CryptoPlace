@@ -49,12 +49,11 @@ _Add screenshots or a demo link here to showcase your platform visually._
 ## 📦 **Installation and Setup**
 
 ### **Step 1: Clone the Repository**
-```bash
+
 git clone https://github.com/vibhor0599bagga/CryptoPlace.git
 cd CryptoPlace
 ### **Step 2: Install Dependencies**
-```bash
 npm install
 ### **Step 3: Run the Application**
-```bash
+npm run dev
 
