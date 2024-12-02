@@ -1,0 +1,133 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  max-width: 100%;
+}
+
+.Home h1 {
+  font-size: 50px;
+  padding: 20px;
+}
+
+.Home h4 {
+  font-size: 8px;
+  padding: 20px;
+}
+
+.Home form {
+  display: flex;
+  align-items: center;
+  padding: 30px 50px;
+  border-radius: 5px;
+  max-width: 500px;
+  margin-bottom: 25px;
+}
+
+.Home input {
+  font-size: 15px;
+  padding: 12px;
+  font-family: "Outfit", sans-serif;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  width: 100%;
+  max-width: 350px;
+  background-color: #fff;
+  color: #333;
+}
+.Home button {
+  font-size: 15px;
+  padding: 12px;
+  font-family: "Outfit", sans-serif;
+  border-radius: 0 5px 5px 0; /* Rounded right corners */
+  border: none;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(92, 58, 156, 0.2);
+  color: white;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.Home button:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* More suitable darker purple on hover */
+}
+
+.table {
+  max-width: 800px;
+  box-sizing: border-box;
+  margin: auto;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(92, 58, 156, 0.1));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  width: 100%; /* Make table responsive */
+  margin-bottom: 50px;
+}
+
+.tlayout {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1.5fr;
+  padding: 15px 20px;
+  align-items: center;
+  border-bottom: 1px solid #3c3c3c;
+}
+
+.tlayout:last-child {
+  border-bottom: none;
+}
+
+.marketCap {
+  text-align: right;
+}
+
+.tlayout div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 50px;
+}
+
+.tlayout div img {
+  width: 35px;
+}
+
+.red {
+  color: #ff4646;
+  text-align: center;
+}
+
+.green {
+  color: #00d515;
+  text-align: center;
+}
+
+@media (max-width:768px){
+  .table {
+    margin: 10px;
+    width: calc(100% - 20px); /* Ensures table doesn’t go all the way to the edge */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+  }
+  .tlayout{
+    grid-template-columns: 0.5fr 3fr 1fr 1fr;
+  }
+  .marketCap{
+    display: none;
+  }
+}
+
+@media (max-width:500px){
+  .tlayout div img{
+    width: 25px;
+  }
+  .tlayout{
+    font-size: 13px;
+  }
+}
+
