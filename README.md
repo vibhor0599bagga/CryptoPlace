@@ -42,7 +42,8 @@ CryptoPlace is a modern cryptocurrency marketplace and tracking platform where u
 
 ## 📸 **Screenshots**
 
-[Preview the file](https://drive.google.com/file/d/1swgIU2PyJRJ2nZv2g1fbJOrar2-zMucE/preview)
+https://drive.google.com/uc?id=1swgIU2PyJRJ2nZv2g1fbJOrar2-zMucE
+
 
 
 ---
